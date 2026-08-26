@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Test artefacts
+test-results/
+playwright-report/
+testdata/perf-100k.ndjson
+
+# Packing output
+*.tgz
+
+# OS / editor
+.DS_Store

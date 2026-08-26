@@ -1,0 +1,3 @@
+{"timestamp":"2026-08-21T12:00:00.000Z","level":"info","requestId":"req-nd-1","message":"handler invoked"}
+{"timestamp":"2026-08-21T12:00:00.750Z","level":"debug","requestId":"req-nd-1","message":"cache miss"}
+{"timestamp":"2026-08-21T12:00:01.500Z","level":"error","requestId":"req-nd-2","message":"validation error: field missing"}

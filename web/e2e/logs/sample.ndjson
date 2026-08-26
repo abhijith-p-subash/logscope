@@ -1,0 +1,5 @@
+{"timestamp":"2026-08-21T10:00:00.000Z","level":"info","requestId":"req-e2e-1","message":"handler invoked"}
+{"timestamp":"2026-08-21T10:00:00.500Z","level":"debug","requestId":"req-e2e-1","message":"cache miss"}
+{"timestamp":"2026-08-21T10:00:01.200Z","level":"warn","requestId":"req-e2e-1","message":"slow dependency"}
+{"timestamp":"2026-08-21T10:00:02.000Z","level":"error","requestId":"req-e2e-2","message":"validation error: field missing"}
+{"timestamp":"2026-08-21T10:00:03.000Z","level":"info","requestId":"req-e2e-2","message":"request completed"}

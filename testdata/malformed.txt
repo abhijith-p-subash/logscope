@@ -1,0 +1,4 @@
+{"level":"info" broken json here
+this one is "truncated":
+random garbage ][}{ not valid json at all
+2026-08-21 15:00:00,123 [ERROR] Traceback (most recent call last): something failed

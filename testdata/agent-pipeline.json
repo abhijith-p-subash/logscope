@@ -1,0 +1,9 @@
+[
+  {"timestamp":"2026-08-22T09:00:00.000Z","message":"[ITER-1] planning weather lookup","requestId":"agent-1"},
+  {"timestamp":"2026-08-22T09:00:00.500Z","message":"[TOOL_CALL:search] query=weather in NYC","requestId":"agent-1"},
+  {"timestamp":"2026-08-22T09:00:01.200Z","message":"[TOOL_RESULT:search] 3 hits","requestId":"agent-1"},
+  {"timestamp":"2026-08-22T09:00:01.500Z","message":"[TOOL_OUTPUT:search] {\"hits\":3}","requestId":"agent-1"},
+  {"timestamp":"2026-08-22T09:00:02.000Z","message":"[ITER-2] retry after empty answer","requestId":"agent-1"},
+  {"timestamp":"2026-08-22T09:00:02.400Z","message":"[TOOL_CALL:search] query=weather in NYC","requestId":"agent-1"},
+  {"timestamp":"2026-08-22T09:00:03.000Z","message":"[ERROR] [TOOL_RESULT:search] rate limited","requestId":"agent-1"}
+]

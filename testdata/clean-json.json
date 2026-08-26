@@ -1,0 +1,5 @@
+[
+  {"timestamp":"2026-08-21T09:00:00.000Z","message":"{\"level\":\"info\",\"requestId\":\"req-clean-1\",\"message\":\"start\"}"},
+  {"timestamp":"2026-08-21T09:00:01.250Z","message":"{\"level\":\"warn\",\"requestId\":\"req-clean-1\",\"message\":\"slow dependency\"}"},
+  {"timestamp":"2026-08-21T09:00:02.000Z","message":"{\"level\":\"error\",\"requestId\":\"req-clean-1\",\"message\":\"db connection failed\"}"}
+]

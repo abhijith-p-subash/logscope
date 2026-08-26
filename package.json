@@ -1,0 +1,79 @@
+{
+  "name": "logscope",
+  "version": "0.1.0",
+  "description": "Offline log analysis for AWS CloudWatch exports — reassembles fragmented events and reconstructs concurrent request traces.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Abhijith P Subash <abhijith.p.subash@gmail.com>",
+  "keywords": [
+    "cloudwatch",
+    "logs",
+    "log-viewer",
+    "log-analysis",
+    "aws",
+    "lambda",
+    "trace",
+    "offline",
+    "cli",
+    "qa"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhijithpsubash/logscope.git"
+  },
+  "homepage": "https://github.com/abhijithpsubash/logscope#readme",
+  "bugs": {
+    "url": "https://github.com/abhijithpsubash/logscope/issues"
+  },
+  "bin": {
+    "logscope": "dist/cli/index.js"
+  },
+  "files": [
+    "dist",
+    "docs",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "typecheck:web": "tsc -p web/tsconfig.json",
+    "cli": "node --experimental-strip-types src/cli/index.ts",
+    "dev:web": "vite --config web/vite.config.ts",
+    "build:web": "vite build --config web/vite.config.ts",
+    "build:cli": "tsup",
+    "build": "npm run build:web && npm run build:cli",
+    "prepublishOnly": "npm run build",
+    "test:e2e": "playwright test",
+    "gen:fixtures": "node --experimental-strip-types scripts/gen-large-fixture.ts"
+  },
+  "dependencies": {
+    "chokidar": "3.6.0",
+    "commander": "12.1.0"
+  },
+  "devDependencies": {
+    "@fontsource/ibm-plex-mono": "5.0.13",
+    "@fontsource/ibm-plex-sans": "5.0.20",
+    "@playwright/test": "1.47.2",
+    "@tanstack/react-virtual": "3.10.8",
+    "@types/node": "20.14.15",
+    "@types/react": "18.3.5",
+    "@types/react-dom": "18.3.0",
+    "@vitejs/plugin-react": "4.3.1",
+    "autoprefixer": "10.4.20",
+    "postcss": "8.4.45",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "tailwindcss": "3.4.10",
+    "tsup": "8.2.4",
+    "typescript": "5.6.2",
+    "vite": "5.4.8",
+    "vitest": "2.1.9"
+  }
+}

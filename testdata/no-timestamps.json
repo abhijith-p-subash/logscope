@@ -1,0 +1,4 @@
+[
+  {"level":"info","requestId":"req-nt-1","message":"no timestamp here"},
+  {"level":"error","requestId":"req-nt-1","message":"still no timestamp, but it failed"}
+]

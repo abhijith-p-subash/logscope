@@ -1,0 +1,3 @@
+@timestamp,@message,@requestId
+2026-08-21T13:00:00.000Z,"{""level"":""info"",""message"":""csv start"",""userId"":12345}",req-csv-1
+2026-08-21T13:00:01.000Z,"{""level"":""error"",""message"":""payment declined"",""code"":""E42""}",req-csv-1

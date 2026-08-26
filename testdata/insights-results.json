@@ -1,0 +1,16 @@
+{
+  "results": [
+    [
+      {"field":"@timestamp","value":"2026-08-21 14:00:00.000"},
+      {"field":"@message","value":"{\"level\":\"info\",\"trace_id\":\"tr-ins-1\",\"message\":\"insights row\"}"},
+      {"field":"@requestId","value":"req-ins-1"}
+    ],
+    [
+      {"field":"@timestamp","value":"2026-08-21 14:00:02.500"},
+      {"field":"@message","value":"{\"level\":\"error\",\"trace_id\":\"tr-ins-1\",\"message\":\"downstream 500\"}"},
+      {"field":"@requestId","value":"req-ins-1"}
+    ]
+  ],
+  "statistics": {"recordsMatched": 2, "recordsScanned": 200},
+  "status": "Complete"
+}

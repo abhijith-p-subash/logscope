@@ -1,0 +1,13 @@
+[
+  {"timestamp":"2026-08-21T10:29:22.001Z","message":"{\"level\":\"info\",\"requestId\":\"req-abc-123\",\"message\":\"invoke start\"}"},
+  {"timestamp":"2026-08-21T10:29:23.036Z","message":"[INFO] agent.tools — [TOOL_RESULT:search] {"},
+  {"timestamp":"2026-08-21T10:29:23.036Z","message":"  \"requestId\": \"req-abc-123\","},
+  {"timestamp":"2026-08-21T10:29:23.036Z","message":"  \"tool\": \"search\","},
+  {"timestamp":"2026-08-21T10:29:23.036Z","message":"  \"result\": {"},
+  {"timestamp":"2026-08-21T10:29:23.036Z","message":"    \"hits\": 3,"},
+  {"timestamp":"2026-08-21T10:29:23.036Z","message":"    \"items\": [\"a\", \"b\", \"c\"]"},
+  {"timestamp":"2026-08-21T10:29:23.036Z","message":"  },"},
+  {"timestamp":"2026-08-21T10:29:23.036Z","message":"  \"elapsed_ms\": 1240"},
+  {"timestamp":"2026-08-21T10:29:23.036Z","message":"}"},
+  {"timestamp":"2026-08-21T10:29:24.500Z","message":"{\"level\":\"error\",\"requestId\":\"req-abc-123\",\"message\":\"tool failed: timeout after 30000ms\",\"error\":\"TimeoutError\"}"}
+]
