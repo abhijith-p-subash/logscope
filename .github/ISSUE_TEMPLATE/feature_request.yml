@@ -5,7 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        logscope has [hard constraints](https://github.com/abhijithpsubash/logscope/blob/main/docs/development.md#non-negotiable-constraints)
+        logscope has [hard constraints](https://github.com/abhijith-p-subash/logscope/blob/main/docs/development.md#non-negotiable-constraints)
         — zero network egress, no persistence, a minimal runtime dependency
         surface, read-only on the watched folder, loopback-only binding. Ideas
         that need one of those relaxed are unlikely to land, so it's worth a

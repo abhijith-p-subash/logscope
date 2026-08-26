@@ -232,12 +232,15 @@ async function serveStatic(path: string, res: ServerResponse, cfg: StaticConfig)
 const PLACEHOLDER = `<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2214%22%20fill%3D%22%2314171C%22%2F%3E%3Crect%20x%3D%2212%22%20y%3D%2212%22%20width%3D%2218%22%20height%3D%2218%22%20rx%3D%224%22%20fill%3D%22%2352C7D8%22%2F%3E%3Crect%20x%3D%2234%22%20y%3D%2234%22%20width%3D%2218%22%20height%3D%2218%22%20rx%3D%224%22%20fill%3D%22%2352C7D8%22%2F%3E%3Crect%20x%3D%2234%22%20y%3D%2212%22%20width%3D%2218%22%20height%3D%2218%22%20rx%3D%224%22%20fill%3D%22%233A424E%22%2F%3E%3Crect%20x%3D%2212%22%20y%3D%2234%22%20width%3D%2218%22%20height%3D%2218%22%20rx%3D%224%22%20fill%3D%22%233A424E%22%2F%3E%3C%2Fsvg%3E">
 <title>logscope</title>
 <style>
   :root { color-scheme: dark; }
   body { margin:0; background:#14171C; color:#DCE2EA;
     font:14px/1.5 ui-monospace,Menlo,Consolas,monospace; padding:32px; }
-  h1 { font-size:18px; margin:0 0 4px; } h1 em { color:#52C7D8; font-style:normal; }
+  h1 { font-size:18px; margin:0 0 4px; display:flex; align-items:center; gap:8px; }
+  h1 em { color:#52C7D8; font-style:normal; }
+  h1 svg { flex-shrink:0; }
   .sub { color:#8894A3; margin-bottom:24px; }
   .stats { display:flex; gap:24px; margin-bottom:24px; flex-wrap:wrap; }
   .stat b { display:block; font-size:24px; } .stat span { color:#8894A3; font-size:12px; }
@@ -249,7 +252,7 @@ const PLACEHOLDER = `<!DOCTYPE html>
   a { color:#52C7D8; }
 </style></head>
 <body>
-  <h1>▚ log<em>scope</em></h1>
+  <h1><svg width="18" height="18" viewBox="0 0 40 40" aria-hidden="true"><rect width="18" height="18" rx="4" fill="#52C7D8"/><rect x="22" y="22" width="18" height="18" rx="4" fill="#52C7D8"/><rect x="22" width="18" height="18" rx="4" fill="#3A424E"/><rect y="22" width="18" height="18" rx="4" fill="#3A424E"/></svg><span>log<em>scope</em></span></h1>
   <div class="sub">Phase 3 status page · watching for files · <span id="conn" class="dim">connecting…</span></div>
   <div class="stats">
     <div class="stat"><b id="s-events">0</b><span>events</span></div>

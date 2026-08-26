@@ -5,7 +5,7 @@ name: Release
 # Auth: this workflow uses npm **trusted publishing** (OIDC) — no token is
 # stored anywhere. Configure it once at
 # npmjs.com → logscope → Settings → Trusted publisher → GitHub Actions
-# (repository: abhijithpsubash/logscope, workflow: release.yml).
+# (repository: abhijith-p-subash/logscope, workflow: release.yml).
 #
 # If you'd rather use a classic automation token instead, add an NPM_TOKEN
 # secret and uncomment the `env:` block on the publish step.

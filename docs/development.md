@@ -15,7 +15,7 @@ see [Getting Started](./getting-started.md) instead.
 ## Setup
 
 ```bash
-git clone https://github.com/abhijithpsubash/logscope.git
+git clone https://github.com/abhijith-p-subash/logscope.git
 cd logscope
 npm install
 ```

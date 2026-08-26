@@ -2,7 +2,9 @@ name: CI
 
 on:
   push:
-    branches: [main]
+    # `master` is this repo's default branch; `main` is listed so the workflow
+    # keeps firing if the branch is ever renamed.
+    branches: [master, main]
   pull_request:
 
 # Cancel superseded runs on the same branch.

@@ -23,7 +23,7 @@ writing the code twice.
 ## Setup
 
 ```bash
-git clone https://github.com/abhijithpsubash/logscope.git
+git clone https://github.com/abhijith-p-subash/logscope.git
 cd logscope
 npm install
 npm test
@@ -92,13 +92,13 @@ way — it's what makes the engine testable without touching a filesystem.
 
 ## Reporting bugs
 
-Use the [issue templates](https://github.com/abhijithpsubash/logscope/issues/new/choose).
+Use the [issue templates](https://github.com/abhijith-p-subash/logscope/issues/new/choose).
 **Please redact log content before pasting it.** If a bug needs a real-looking
 export to reproduce, replace the identifiers and values first — a fixture with
 the shape intact and the data replaced is just as useful.
 
 Security issues go through
-[private advisories](https://github.com/abhijithpsubash/logscope/security/advisories/new),
+[private advisories](https://github.com/abhijith-p-subash/logscope/security/advisories/new),
 not public issues. See [SECURITY.md](./SECURITY.md).
 
 ## Licence

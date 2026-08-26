@@ -13,7 +13,7 @@ backports.
 ## Reporting a vulnerability
 
 Please report privately through
-[GitHub Security Advisories](https://github.com/abhijithpsubash/logscope/security/advisories/new),
+[GitHub Security Advisories](https://github.com/abhijith-p-subash/logscope/security/advisories/new),
 or by email to abhijith.p.subash@gmail.com if you'd rather not use GitHub.
 
 **Please don't open a public issue for a vulnerability.**

@@ -1,10 +1,15 @@
-# logscope
+<p align="center">
+  <img src="https://raw.githubusercontent.com/abhijith-p-subash/logscope/master/.github/assets/banner.svg"
+       alt="logscope — offline log analysis for AWS CloudWatch exports" width="840">
+</p>
 
-[![npm version](https://img.shields.io/npm/v/logscope.svg)](https://www.npmjs.com/package/logscope)
-[![CI](https://github.com/abhijithpsubash/logscope/actions/workflows/ci.yml/badge.svg)](https://github.com/abhijithpsubash/logscope/actions/workflows/ci.yml)
-[![node](https://img.shields.io/node/v/logscope.svg)](https://nodejs.org)
-[![license](https://img.shields.io/npm/l/logscope.svg)](./LICENSE)
-[![runtime dependencies](https://img.shields.io/badge/runtime%20deps-2-brightgreen.svg)](./package.json)
+<p align="center">
+  <a href="https://www.npmjs.com/package/logscope"><img alt="npm version" src="https://img.shields.io/npm/v/logscope.svg"></a>
+  <a href="https://github.com/abhijith-p-subash/logscope/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/abhijith-p-subash/logscope/actions/workflows/ci.yml/badge.svg?branch=master"></a>
+  <a href="https://nodejs.org"><img alt="node" src="https://img.shields.io/node/v/logscope.svg"></a>
+  <a href="./LICENSE"><img alt="license" src="https://img.shields.io/npm/l/logscope.svg"></a>
+  <a href="./package.json"><img alt="runtime dependencies" src="https://img.shields.io/badge/runtime%20deps-2-brightgreen.svg"></a>
+</p>
 
 **Offline log analysis for AWS CloudWatch exports.** It reassembles fragmented events,
 reconstructs concurrent requests into readable traces, and serves a local web UI — all
