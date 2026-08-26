@@ -1,5 +1,11 @@
 # logscope
 
+[![npm version](https://img.shields.io/npm/v/logscope.svg)](https://www.npmjs.com/package/logscope)
+[![CI](https://github.com/abhijithpsubash/logscope/actions/workflows/ci.yml/badge.svg)](https://github.com/abhijithpsubash/logscope/actions/workflows/ci.yml)
+[![node](https://img.shields.io/node/v/logscope.svg)](https://nodejs.org)
+[![license](https://img.shields.io/npm/l/logscope.svg)](./LICENSE)
+[![runtime dependencies](https://img.shields.io/badge/runtime%20deps-2-brightgreen.svg)](./package.json)
+
 **Offline log analysis for AWS CloudWatch exports.** It reassembles fragmented events,
 reconstructs concurrent requests into readable traces, and serves a local web UI — all
 on your own machine, with the network disconnected.
@@ -101,7 +107,9 @@ They are hard constraints, not preferences — see the guarantees above before p
 | **[User Guide](./docs/user-guide.md)** | Using the app: traces, search, filters, analysis views, exports |
 | **[CLI Reference](./docs/cli-reference.md)** | Every command, flag, and the config file |
 | **[Troubleshooting & FAQ](./docs/troubleshooting.md)** | Fixes for the common problems |
-| **[Development](./docs/development.md)** | Contributing, scripts, publishing |
+| **[Development](./docs/development.md)** | Repo setup, scripts, layout, publishing |
+| **[Contributing](./CONTRIBUTING.md)** | House style, the PR checklist, what gets merged |
+| **[Changelog](./CHANGELOG.md)** | What changed in each release |
 
 ---
 
@@ -109,10 +117,20 @@ They are hard constraints, not preferences — see the guarantees above before p
 
 Node.js 20 or newer. Nothing else.
 
+## Contributing
+
+Bug reports, docs fixes, and focused PRs are welcome — see
+**[CONTRIBUTING.md](./CONTRIBUTING.md)** for setup, house style, and the six hard
+constraints any change has to respect. Found a security flaw? Please report it
+privately: **[SECURITY.md](./SECURITY.md)**.
+
+Everyone interacting with the project is expected to follow the
+[Code of Conduct](./CODE_OF_CONDUCT.md).
+
 ## License
 
 [MIT](./LICENSE) © 2026 Abhijith P Subash. Use it, fork it, ship it.
 
 ---
 
-A manual verification walkthrough lives in `VERIFY.md`.
+A manual verification walkthrough lives in [docs/verifying.md](./docs/verifying.md).

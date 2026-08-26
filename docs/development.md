@@ -5,13 +5,17 @@ see [Getting Started](./getting-started.md) instead.
 
 ## Prerequisites
 
-- **Node.js 20+** (same as the runtime requirement).
+- **Node.js 22.6 or newer.** Note this is stricter than the runtime requirement
+  (Node 20+): the dev scripts run TypeScript directly via
+  `--experimental-strip-types`, which older versions don't support. The
+  *published* package is compiled and runs fine on Node 20. `.nvmrc` pins a
+  suitable version — `nvm use`.
 - npm (ships with Node).
 
 ## Setup
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/abhijithpsubash/logscope.git
 cd logscope
 npm install
 ```
@@ -89,4 +93,6 @@ These define the project — flag any change that would violate one:
 
 ## Read next
 
-- `VERIFY.md` — a full manual verification walkthrough.
+- [`verifying.md`](./verifying.md) — a full manual verification walkthrough.
+- [`CONTRIBUTING.md`](../CONTRIBUTING.md) — house style, the PR checklist, and the layout rules.
+- [`SECURITY.md`](../SECURITY.md) — the threat model and what counts as a vulnerability here.

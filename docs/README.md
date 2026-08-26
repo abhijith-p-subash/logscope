@@ -19,6 +19,9 @@ Welcome! Pick the guide that matches what you need.
 ## 🛠 For contributors
 
 - **[Development](./development.md)** — repo setup, scripts, layout, publishing.
+- **[Contributing](../CONTRIBUTING.md)** — house style, the PR checklist, what gets merged.
+- **[Verifying](./verifying.md)** — a manual end-to-end walkthrough of every feature.
+- **[Security policy](../SECURITY.md)** — the threat model and how to report a flaw.
 
 ---
 

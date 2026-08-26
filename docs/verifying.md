@@ -12,18 +12,18 @@ Estimated time: ~12 minutes.
 
 | Need | Check | Expected |
 |------|-------|----------|
-| Node 20+ | `node -v` | `v20.x` or higher (you have v24) |
+| Node 22.6+ | `node -v` | `v22.6` or higher — the dev scripts run TypeScript directly |
 | npm | `npm -v` | any recent version |
 
-If `node -v` prints nothing or an old version, install Node 20 LTS or newer
-before continuing.
+If `node -v` prints nothing or an older version, install Node 22 LTS or newer
+before continuing. (End users only need Node 20+ — the stricter floor applies to
+running this repo from source.)
 
 ---
 
 ## 1. One-time setup
 
-Run these once from the project root
-(`…/Learning/Side Project/logscope`).
+Run these once from the project root (your clone of the repository).
 
 ```bash
 npm install

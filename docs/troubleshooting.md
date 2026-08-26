@@ -121,5 +121,5 @@ Go to the terminal where it's running and press **`Ctrl + C`**.
 
 ---
 
-Still stuck? Check the [User Guide](./user-guide.md) or the project's `VERIFY.md` for a
+Still stuck? Check the [User Guide](./user-guide.md) or the project's [verification guide](./verifying.md) for a
 step-by-step sanity check.

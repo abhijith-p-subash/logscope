@@ -1,0 +1,15 @@
+# Normalise line endings so Windows contributors don't produce CRLF diffs.
+* text=auto eol=lf
+
+# Binary assets.
+*.woff  binary
+*.woff2 binary
+*.png   binary
+*.ico   binary
+
+# Keep generated and vendored files out of diffs and language stats.
+package-lock.json  linguist-generated=true -diff
+dist/              linguist-generated=true
+testdata/*.json    linguist-vendored=true
+testdata/*.ndjson  linguist-vendored=true
+testdata/*.csv     linguist-vendored=true
