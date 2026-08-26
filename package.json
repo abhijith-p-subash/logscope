@@ -19,11 +19,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abhijithpsubash/logscope.git"
+    "url": "git+https://github.com/abhijith-p-subash/logscope.git"
   },
-  "homepage": "https://github.com/abhijithpsubash/logscope#readme",
+  "homepage": "https://github.com/abhijith-p-subash/logscope#readme",
   "bugs": {
-    "url": "https://github.com/abhijithpsubash/logscope/issues"
+    "url": "https://github.com/abhijith-p-subash/logscope/issues"
   },
   "bin": {
     "logscope": "dist/cli/index.js"

@@ -6,6 +6,7 @@ import { computeView, emptyFilters, type Filters, type SortKey, type TZ } from "
 import { useResize } from "./lib/useResize.ts";
 import { useSession } from "./state/useSession.ts";
 import { useToast } from "./state/useToast.ts";
+import { BrandMark } from "./components/BrandMark.tsx";
 import { Header } from "./components/Header.tsx";
 import { FileTabs, getFileColor } from "./components/FileTabs.tsx";
 import { FilePanel } from "./components/FilePanel.tsx";
@@ -456,7 +457,12 @@ export default function App() {
   if (!session) {
     return (
       <div className="boot">
-        <div className="boot-brand">▚ log<em>scope</em></div>
+        <div className="boot-brand">
+          <BrandMark size={20} />
+          <span>
+            log<em>scope</em>
+          </span>
+        </div>
         {error ? (
           <>
             <div className="boot-err">Couldn’t reach the logscope server.</div>
@@ -518,7 +524,9 @@ export default function App() {
       {landing ? (
         <div className="drop">
           <div className={"dropin" + (dragOver ? " over" : "")}>
-            <div className="dropicon" aria-hidden="true">▚</div>
+            <div className="dropicon">
+              <BrandMark size={46} hollow />
+            </div>
             <h1>log<em>scope</em></h1>
             <p>Reassembles fragmented CloudWatch exports into readable, traceable events.</p>
             <div className="dropcta">

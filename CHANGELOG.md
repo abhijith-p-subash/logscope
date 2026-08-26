@@ -43,5 +43,5 @@ First public release.
 - The published tarball omitted `docs/`, so every documentation link in the
   README 404'd on npmjs.com.
 
-[Unreleased]: https://github.com/abhijithpsubash/logscope/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/abhijithpsubash/logscope/releases/tag/v0.1.0
+[Unreleased]: https://github.com/abhijith-p-subash/logscope/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/abhijith-p-subash/logscope/releases/tag/v0.1.0

@@ -1,3 +1,5 @@
+import { BrandMark } from "./BrandMark.tsx";
+
 interface Props {
   fileCount: number;
   activeCount: number;
@@ -62,7 +64,12 @@ export function Header({
 
   return (
     <div className={"hd" + (expanded ? " hd-expanded" : "")}>
-      <div className="brand">▚ log<em>scope</em></div>
+      <div className="brand">
+        <BrandMark />
+        <span>
+          log<em>scope</em>
+        </span>
+      </div>
 
       {/* Files button */}
       <div style={{ position: "relative", flexShrink: 0 }}>

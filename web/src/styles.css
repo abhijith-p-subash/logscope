@@ -187,11 +187,19 @@ html[data-theme="light"] {
     background: var(--cyan);
   }
   .brand {
+    display: flex;
+    align-items: center;
+    gap: 7px;
     font-family: var(--mono);
     font-size: 13px;
     font-weight: 600;
     letter-spacing: -0.02em;
     white-space: nowrap;
+  }
+  .brand-mark {
+    flex-shrink: 0;
+    /* Optical: the mark's visual centre sits a hair above the text baseline. */
+    margin-top: -1px;
   }
   .brand em {
     color: var(--cyan);
@@ -1884,6 +1892,9 @@ html[data-theme="light"] {
       var(--bg);
   }
   .boot-brand {
+    display: flex;
+    align-items: center;
+    gap: 9px;
     font-family: var(--mono);
     font-size: 22px;
     font-weight: 600;
@@ -1905,10 +1916,9 @@ html[data-theme="light"] {
 
   /* ══ Landing enhancements ═════════════════════════════════════════════════ */
   .dropicon {
-    font-family: var(--mono);
-    font-size: 30px;
-    color: var(--cyan);
-    margin-bottom: 6px;
+    /* line-height 0 so the inline SVG doesn't carry a text descender. */
+    line-height: 0;
+    margin-bottom: 10px;
     opacity: 0.9;
   }
   .dropcta { margin: 6px 0 20px; }
