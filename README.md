@@ -4,11 +4,11 @@
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/logscope-cli"><img alt="npm version" src="https://img.shields.io/npm/v/logscope-cli.svg"></a>
+  <a href="https://www.npmjs.com/package/logscope-cli"><img alt="npm version" src="https://img.shields.io/npm/v/logscope-cli.svg?cacheSeconds=3600"></a>
   <a href="https://github.com/abhijith-p-subash/logscope/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/abhijith-p-subash/logscope/actions/workflows/ci.yml/badge.svg?branch=master"></a>
-  <a href="https://nodejs.org"><img alt="node" src="https://img.shields.io/node/v/logscope-cli.svg"></a>
-  <a href="./LICENSE"><img alt="license" src="https://img.shields.io/npm/l/logscope-cli.svg"></a>
-  <a href="./package.json"><img alt="runtime dependencies" src="https://img.shields.io/badge/runtime%20deps-2-brightgreen.svg"></a>
+  <a href="https://nodejs.org"><img alt="node" src="https://img.shields.io/node/v/logscope-cli.svg?cacheSeconds=3600"></a>
+  <a href="https://github.com/abhijith-p-subash/logscope/blob/master/LICENSE"><img alt="license" src="https://img.shields.io/npm/l/logscope-cli.svg?cacheSeconds=3600"></a>
+  <a href="https://github.com/abhijith-p-subash/logscope/blob/master/package.json"><img alt="runtime dependencies" src="https://img.shields.io/badge/runtime%20deps-2-brightgreen.svg"></a>
 </p>
 
 **Offline log analysis for AWS CloudWatch exports.** It reassembles fragmented events,
@@ -25,7 +25,7 @@ on your own machine, with the network disconnected.
 
 **[Node.js](https://nodejs.org) version 20 or newer** — this is the only thing you need
 to install. Check with `node --version`. New to this? The
-**[Getting Started guide](./docs/getting-started.md)** walks you through it, step by step,
+**[Getting Started guide](https://github.com/abhijith-p-subash/logscope/blob/master/docs/getting-started.md)** walks you through it, step by step,
 no experience assumed.
 
 ---
@@ -61,7 +61,7 @@ logscope report ./logs --out evidence.html   # PII-redacted HTML evidence bundle
 ```
 
 Flags: `-p, --port <n>` (default `4477`), `--no-open`. Defaults can live in
-`~/.logscope.json`. Full details in the **[CLI Reference](./docs/cli-reference.md)**.
+`~/.logscope.json`. Full details in the **[CLI Reference](https://github.com/abhijith-p-subash/logscope/blob/master/docs/cli-reference.md)**.
 
 ---
 
@@ -83,7 +83,7 @@ Flags: `-p, --port <n>` (default `4477`), `--no-open`. Defaults can live in
 - **Evidence bundles** — a self-contained, PII-redacted HTML artifact for a defect
   ticket, replacing screenshots of fragmented logs.
 
-See the **[User Guide](./docs/user-guide.md)** for how to use all of it.
+See the **[User Guide](https://github.com/abhijith-p-subash/logscope/blob/master/docs/user-guide.md)** for how to use all of it.
 
 ---
 
@@ -107,14 +107,14 @@ They are hard constraints, not preferences — see the guarantees above before p
 
 | Guide | For |
 |-------|-----|
-| **[Getting Started](./docs/getting-started.md)** | First-time setup, including installing Node.js — non-technical friendly |
-| **[Exporting logs from CloudWatch](./docs/exporting-logs.md)** | Getting a log file out of AWS + the 10k-row cap |
-| **[User Guide](./docs/user-guide.md)** | Using the app: traces, search, filters, analysis views, exports |
-| **[CLI Reference](./docs/cli-reference.md)** | Every command, flag, and the config file |
-| **[Troubleshooting & FAQ](./docs/troubleshooting.md)** | Fixes for the common problems |
-| **[Development](./docs/development.md)** | Repo setup, scripts, layout, publishing |
-| **[Contributing](./CONTRIBUTING.md)** | House style, the PR checklist, what gets merged |
-| **[Changelog](./CHANGELOG.md)** | What changed in each release |
+| **[Getting Started](https://github.com/abhijith-p-subash/logscope/blob/master/docs/getting-started.md)** | First-time setup, including installing Node.js — non-technical friendly |
+| **[Exporting logs from CloudWatch](https://github.com/abhijith-p-subash/logscope/blob/master/docs/exporting-logs.md)** | Getting a log file out of AWS + the 10k-row cap |
+| **[User Guide](https://github.com/abhijith-p-subash/logscope/blob/master/docs/user-guide.md)** | Using the app: traces, search, filters, analysis views, exports |
+| **[CLI Reference](https://github.com/abhijith-p-subash/logscope/blob/master/docs/cli-reference.md)** | Every command, flag, and the config file |
+| **[Troubleshooting & FAQ](https://github.com/abhijith-p-subash/logscope/blob/master/docs/troubleshooting.md)** | Fixes for the common problems |
+| **[Development](https://github.com/abhijith-p-subash/logscope/blob/master/docs/development.md)** | Repo setup, scripts, layout, publishing |
+| **[Contributing](https://github.com/abhijith-p-subash/logscope/blob/master/CONTRIBUTING.md)** | House style, the PR checklist, what gets merged |
+| **[Changelog](https://github.com/abhijith-p-subash/logscope/blob/master/CHANGELOG.md)** | What changed in each release |
 
 ---
 
@@ -125,17 +125,17 @@ Node.js 20 or newer. Nothing else.
 ## Contributing
 
 Bug reports, docs fixes, and focused PRs are welcome — see
-**[CONTRIBUTING.md](./CONTRIBUTING.md)** for setup, house style, and the six hard
+**[CONTRIBUTING.md](https://github.com/abhijith-p-subash/logscope/blob/master/CONTRIBUTING.md)** for setup, house style, and the six hard
 constraints any change has to respect. Found a security flaw? Please report it
-privately: **[SECURITY.md](./SECURITY.md)**.
+privately: **[SECURITY.md](https://github.com/abhijith-p-subash/logscope/blob/master/SECURITY.md)**.
 
 Everyone interacting with the project is expected to follow the
-[Code of Conduct](./CODE_OF_CONDUCT.md).
+[Code of Conduct](https://github.com/abhijith-p-subash/logscope/blob/master/CODE_OF_CONDUCT.md).
 
 ## License
 
-[MIT](./LICENSE) © 2026 Abhijith P Subash. Use it, fork it, ship it.
+[MIT](https://github.com/abhijith-p-subash/logscope/blob/master/LICENSE) © 2026 Abhijith P Subash. Use it, fork it, ship it.
 
 ---
 
-A manual verification walkthrough lives in [docs/verifying.md](./docs/verifying.md).
+A manual verification walkthrough lives in [docs/verifying.md](https://github.com/abhijith-p-subash/logscope/blob/master/docs/verifying.md).
