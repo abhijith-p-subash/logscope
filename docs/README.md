@@ -38,7 +38,7 @@ See the [root README](../README.md) for the short overview.
 node --version
 
 # 2. Run it (downloads on first use, opens your browser)
-npx logscope ~/Downloads
+npx logscope-cli ~/Downloads
 
 # 3. Stop it any time with Ctrl + C
 ```

@@ -20,8 +20,8 @@ See [Getting Started → Step 1](./getting-started.md#step-1--install-the-one-pr
 
 You haven't installed it globally. Either:
 
-- Run it without installing: `npx logscope`, **or**
-- Install it: `npm install -g logscope`, then reopen your terminal.
+- Run it without installing: `npx logscope-cli`, **or**
+- Install it: `npm install -g logscope-cli`, then reopen your terminal.
 
 ---
 
@@ -33,7 +33,7 @@ Your company network may block the public npm registry.
   file, or a **git URL** to install from.
 - Install from a tarball like this:
   ```bash
-  npm install -g ./logscope-0.1.0.tgz
+  npm install -g ./logscope-cli-0.1.0.tgz
   ```
 - Your Node version still needs to be **20+** regardless of how you install.
 
@@ -116,8 +116,8 @@ Go to the terminal where it's running and press **`Ctrl + C`**.
 
 ## How do I update to a newer version?
 
-- If you use `npx logscope`, you always get the latest automatically.
-- If you installed it globally: `npm install -g logscope@latest`.
+- If you use `npx logscope-cli`, you always get the latest automatically.
+- If you installed it globally: `npm install -g logscope-cli@latest`.
 
 ---
 

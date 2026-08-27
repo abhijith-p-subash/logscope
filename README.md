@@ -4,10 +4,10 @@
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/logscope"><img alt="npm version" src="https://img.shields.io/npm/v/logscope.svg"></a>
+  <a href="https://www.npmjs.com/package/logscope-cli"><img alt="npm version" src="https://img.shields.io/npm/v/logscope-cli.svg"></a>
   <a href="https://github.com/abhijith-p-subash/logscope/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/abhijith-p-subash/logscope/actions/workflows/ci.yml/badge.svg?branch=master"></a>
-  <a href="https://nodejs.org"><img alt="node" src="https://img.shields.io/node/v/logscope.svg"></a>
-  <a href="./LICENSE"><img alt="license" src="https://img.shields.io/npm/l/logscope.svg"></a>
+  <a href="https://nodejs.org"><img alt="node" src="https://img.shields.io/node/v/logscope-cli.svg"></a>
+  <a href="./LICENSE"><img alt="license" src="https://img.shields.io/npm/l/logscope-cli.svg"></a>
   <a href="./package.json"><img alt="runtime dependencies" src="https://img.shields.io/badge/runtime%20deps-2-brightgreen.svg"></a>
 </p>
 
@@ -33,13 +33,13 @@ no experience assumed.
 ## Quickstart
 
 ```bash
-npx logscope                 # watch the current folder and open the browser
+npx logscope-cli                 # watch the current folder and open the browser
 ```
 
 Or install it and point it at your downloads folder:
 
 ```bash
-npm install -g logscope
+npm install -g logscope-cli
 logscope ~/Downloads         # new exports appear live as you download them
 ```
 
