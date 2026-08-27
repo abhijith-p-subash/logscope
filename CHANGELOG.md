@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.1] — 2026-08-27
+
+Documentation only — no code, CLI, or UI changes. The published tarball is
+identical to 0.1.0 apart from the README.
+
+### Fixed
+
+- Every link in the README is now absolute. The relative form (`./LICENSE`,
+  `./docs/…`) resolves against the repository tree on GitHub, but npmjs.com has
+  no repository tree — so the licence link and all eight documentation links
+  were dead for anyone reading the package page.
+- Badge URLs carry `cacheSeconds`, so a badge fetched before the package existed
+  can no longer stick as a cached "package not found" image.
+
 ## [0.1.0] — 2026-08-26
 
 First public release.
@@ -43,5 +57,6 @@ First public release.
 - The published tarball omitted `docs/`, so every documentation link in the
   README 404'd on npmjs.com.
 
-[Unreleased]: https://github.com/abhijith-p-subash/logscope/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/abhijith-p-subash/logscope/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/abhijith-p-subash/logscope/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/abhijith-p-subash/logscope/releases/tag/v0.1.0
