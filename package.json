@@ -54,7 +54,7 @@
     "gen:fixtures": "node --experimental-strip-types scripts/gen-large-fixture.ts"
   },
   "dependencies": {
-    "chokidar": "3.6.0",
+    "chokidar": "5.0.0",
     "commander": "12.1.0"
   },
   "devDependencies": {
