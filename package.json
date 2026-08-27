@@ -55,7 +55,7 @@
   },
   "dependencies": {
     "chokidar": "3.6.0",
-    "commander": "12.1.0"
+    "commander": "15.0.0"
   },
   "devDependencies": {
     "@fontsource/ibm-plex-mono": "5.0.13",
