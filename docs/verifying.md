@@ -314,8 +314,8 @@ The tarball contains only `dist/` and `README.md` — no `src`, `node_modules`, 
 fixtures. To try the real global install from this repo:
 
 ```bash
-npm pack                       # produces logscope-0.0.0.tgz
-npm i -g ./logscope-0.0.0.tgz  # installs the `logscope` binary
+npm pack                       # produces logscope-cli-0.1.0.tgz
+npm i -g ./logscope-cli-0.1.0.tgz  # installs the `logscope` binary
 logscope scan ./testdata       # run the installed binary
 npm rm -g logscope             # clean up
 ```
@@ -354,7 +354,7 @@ These don't block development but determine how the tool ships:
 - [ ] **Do QA testers have Node 20+**, or only developers? (Decides whether the
       standalone-binary escape hatch is needed. QA is ~half the user base.)
 - [ ] **Does the corporate npm registry proxy public npm?** (If blocked,
-      `npx logscope` / `npm i -g` won't work and we fall back to a tarball.)
+      `npx logscope-cli` / `npm i -g` won't work and we fall back to a tarball.)
 - [ ] **Do we control the agent services' logging code?** (Decides whether
       fixing the log emitter is a PR or a cross-team negotiation.)
 - [ ] Do the XML export files mentioned in D8 actually exist? (If not, no XML

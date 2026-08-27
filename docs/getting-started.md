@@ -71,7 +71,7 @@ way to try it.
 In your terminal, type:
 
 ```bash
-npx logscope
+npx logscope-cli
 ```
 
 The first time, it will ask to download logscope — type `y` and press Enter.
@@ -82,7 +82,7 @@ That's it: it starts up and opens your browser automatically.
 If you'll use it often, install it once so the command is always available:
 
 ```bash
-npm install -g logscope
+npm install -g logscope-cli
 ```
 
 Then you can simply run `logscope` any time.
@@ -142,7 +142,7 @@ To **stop** logscope, go back to the terminal and press `Ctrl + C`.
 | Step | Command |
 |------|---------|
 | 1. Check Node.js (need v20+) | `node --version` |
-| 2. Run logscope (no install) | `npx logscope` |
+| 2. Run logscope (no install) | `npx logscope-cli` |
 | 3. Watch a folder | `logscope ~/Downloads` |
 | 4. Open one file | `logscope open export.json` |
 | Stop it | `Ctrl + C` in the terminal |

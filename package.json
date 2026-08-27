@@ -1,5 +1,5 @@
 {
-  "name": "logscope",
+  "name": "logscope-cli",
   "version": "0.1.0",
   "description": "Offline log analysis for AWS CloudWatch exports — reassembles fragmented events and reconstructs concurrent request traces.",
   "type": "module",

@@ -107,8 +107,9 @@ jobs:
           npm pack --pack-destination /tmp
           mkdir -p /tmp/consumer && cd /tmp/consumer
           npm init -y > /dev/null
-          npm install /tmp/logscope-*.tgz
+          npm install /tmp/logscope-cli-*.tgz
+          # The package is `logscope-cli`; the binary it installs is `logscope`.
           ./node_modules/.bin/logscope --version
           ./node_modules/.bin/logscope --help
-          test -f ./node_modules/logscope/dist/web/index.html
-          test -f ./node_modules/logscope/LICENSE
+          test -f ./node_modules/logscope-cli/dist/web/index.html
+          test -f ./node_modules/logscope-cli/LICENSE

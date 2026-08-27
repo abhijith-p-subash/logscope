@@ -2,8 +2,8 @@
 
 Complete list of logscope commands, flags, and configuration.
 
-If you installed with `npm install -g logscope`, use `logscope …`.
-If you're using it without installing, prefix with `npx`, e.g. `npx logscope …`.
+If you installed with `npm install -g logscope-cli`, use `logscope …`.
+If you're using it without installing, prefix with `npx`, e.g. `npx logscope-cli …`.
 
 ---
 
